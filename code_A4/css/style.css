@@ -1,0 +1,79 @@
+body{
+  
+    
+
+}
+
+.backgroud{ 
+    background-image: url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    width: 500px;
+    height: 400px;
+    margin: auto;
+   margin-top: 0;
+}
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.bc-img{
+    border-radius: 3px;
+    width: auto;
+    height: 100px;
+}
+
+.bc-img:first-child{
+    margin-right: 10px;
+}
+
+.label{
+    text-align: center;
+    font-size: 16px;
+}
+.button{
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+
+}
+.input{
+    display: block;
+    margin-bottom: 10px;
+    padding: 6px;
+    border-radius: 8px;
+    outline: none;
+    border: navajowhite;
+    width: 300px;
+   
+}
+
+.bc_btn{
+    display: block;
+    width: 310px;
+    padding: 6px;
+    border-radius: 8px;
+    outline: none   ;
+    border: none;
+    background-color: orange;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+   
+}
+.text{
+    font: 20px;
+    padding: 10px;
+    background-color: orange;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    height: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    line-height: 10px;
+    margin-top: 10px;
+    position: relative;
+    top: 4px;
+}
